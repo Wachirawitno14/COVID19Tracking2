@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\fac11e4053b0ee70596ac6ed52e12b3e\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_title_text.xml.flat",
         "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\7c9142c17550c92dab314dac75f37ca0\\material-1.1.0\\res\\layout\\mtrl_picker_header_title_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\fac11e4053b0ee70596ac6ed52e12b3e\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\7c9142c17550c92dab314dac75f37ca0\\material-1.1.0\\res\\layout\\mtrl_calendar_month_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\fac11e4053b0ee70596ac6ed52e12b3e\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_fragment_close_exit.xml.flat",
         "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\b674c3f12a495c4d5194b31f70b5a5a7\\fragment-1.2.1\\res\\anim\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Adminstrator\\.gradle\\caches\\transforms-2\\files-2.1\\fac11e4053b0ee70596ac6ed52e12b3e\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Adminstrator\\Documents\\COVID-19\\COVID19Tracking3\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",

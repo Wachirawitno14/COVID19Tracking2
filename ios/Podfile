@@ -81,6 +81,8 @@ target 'COVID19Tracking' do
 
   pod 'react-native-camera', :path => '../node_modules/react-native-camera'
 
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
   target 'COVID19TrackingTests' do
     inherit! :complete
     # Pods for testing

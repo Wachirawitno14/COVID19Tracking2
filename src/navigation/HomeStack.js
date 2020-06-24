@@ -21,9 +21,9 @@ const HomeStack2 = createStackNavigator();
 function HomeStackScreen() {
   return (
     <HomeStack2.Navigator>
-      <HomeStack2.Screen name="Home" component={HomeScreen} />
+      <HomeStack2.Screen name="Home" component={HomeScreen}  options={{ title: 'หน้าหลัก'}} />
       <HomeStack2.Screen name="Evaluate" component={EvaluateScreen} />
-      <HomeStack2.Screen name="Guide" component={GuideScreen} />
+      <HomeStack2.Screen name="Guide" component={GuideScreen} options={{ title: 'คำแนะนำ'}} />
       <HomeStack2.Screen name="Quiz" component={QuizScreen} />
     </HomeStack2.Navigator>
   );
@@ -31,18 +31,18 @@ function HomeStackScreen() {
 function QRStackScreen() {
   return (
     <HomeStack2.Navigator>
-      <HomeStack2.Screen name="QR" component={QRScreen} options={{ headerLeft: null, }}/>
-      <HomeStack2.Screen name="Checkin" component={CheckinScreen} options={{ headerLeft: null, }} />
-      <HomeStack2.Screen name="Checkout" component={CheckOutScreen} options={{ headerLeft: null, }}/>
-      <HomeStack2.Screen name="Rescan" component={RescanScreen} options={{ headerLeft: null, }}/>
+      <HomeStack2.Screen name="QR" component={QRScreen} options={{ headerLeft: null, title: 'สแกนQRCode'}}/>
+      <HomeStack2.Screen name="Checkin" component={CheckinScreen} options={{ headerLeft: null, title: 'Check In สถานที่'}} />
+      <HomeStack2.Screen name="Checkout" component={CheckOutScreen} options={{ headerLeft: null,  title: 'Check Out สถานที่'}}/>
+      <HomeStack2.Screen name="Rescan" component={RescanScreen} options={{ headerLeft: null, title: 'Rescan' }}/>
     </HomeStack2.Navigator>
   );
 }
 function ProfileStackScreen() {
   return (
     <HomeStack2.Navigator>
-      <HomeStack2.Screen name="Profile" component={ProfileScreen} options={{ headerLeft: null, }}/>
-      <HomeStack2.Screen name="EditProfile" component={EditProfileScreen} options={{ headerLeft: null, }} />
+      <HomeStack2.Screen name="Profile" component={ProfileScreen} options={{ headerLeft: null, title: 'โปรไฟล์' }}/>
+      <HomeStack2.Screen name="EditProfile" component={EditProfileScreen} options={{ headerLeft: null, title: 'แก้ไขโปรไฟล์' }} />
     </HomeStack2.Navigator>
   );
 }
@@ -53,23 +53,14 @@ export default function HomeStack() {
     <Tab.Navigator>
       <Tab.Screen name="Home" component={HomeStackScreen} 
       options={{
-        tabBarLabel: 'Home',
+        tabBarLabel: 'หน้าหลัก',
         tabBarColor: '#51DCA8',
         tabBarIcon: ({ color }) => (
           <Icon name="ios-home" color={color} size={26} />
         ),
       }}
       />
-      <Tab.Screen name="Report" component={ReportScreen} 
-      options={{
-        tabBarLabel: 'Report',
-        tabBarColor: '#51DCA8',
-        tabBarIcon: ({ color }) => (
-          <Icon name="md-analytics" color={color} size={26} />
-        ),
-      }} 
-      />
-      <Tab.Screen name="QRScan" component={QRStackScreen} 
+      <Tab.Screen name="สแกนQRCode" component={QRStackScreen} 
        options={{
         tabBarLabel: 'QRScan',
         tabBarColor: '#51DCA8',
@@ -80,7 +71,7 @@ export default function HomeStack() {
       />
       <Tab.Screen name="Profile" component={ProfileStackScreen}
       options={{
-        tabBarLabel: 'Profile',
+        tabBarLabel: 'โปรไฟล์',
         tabBarColor: '#51DCA8',
         tabBarIcon: ({ color }) => (
           <Icon name="ios-person" color={color} size={26} />
@@ -89,7 +80,7 @@ export default function HomeStack() {
       />
       <Tab.Screen name="Setting" component={SettingScreen} 
       options={{
-        tabBarLabel: 'Setting',
+        tabBarLabel: 'ตั้งค่า',
         tabBarColor: '#51DCA8',
         tabBarIcon: ({ color }) => (
           <Icon name="ios-settings" color={color} size={26} />

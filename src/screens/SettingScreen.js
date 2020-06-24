@@ -7,7 +7,7 @@ export default function SettingScreen() {
   const { user, logout } = useContext(AuthContext);
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Logout</Text>
+      <Text style={styles.text}>ออกจากระบบ</Text>
       <FormButton buttonTitle='Logout' onPress={() => logout()} />
     </View>
   );
